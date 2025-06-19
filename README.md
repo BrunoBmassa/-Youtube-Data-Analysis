@@ -42,3 +42,15 @@ Principais Insights
 Vídeos com mais engajamento tendem a ter títulos curtos e thumbnails atrativas
 Publicações entre determinados horários ou dias geram mais visualizações
 Alta correlação entre número de comentários e likes, indicando engajamento real
+
+Como Executar
+
+ Clone o repositório:
+
+git clone https://github.com/BrunoBmassa/Analise-dados-Youtube.git
+
+Instale as dependências:
+pip install pandas matplotlib seaborn plotly jupyter
+
+Execute o notebook:
+jupyter notebook notebook/analise_youtube.ipynb
