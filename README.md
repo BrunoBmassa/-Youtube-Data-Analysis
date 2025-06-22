@@ -11,33 +11,14 @@ Tendências por tempo de publicação ou categorias
 
 Estratégias de crescimento com base em dados reais
 
-Tecnologias Utilizadas
+Tecnologias utilizadas:
+PySpark • Pandas • Spark SQL • Gdown • Python
 
-Python
+Principais etapas:
 
-  -Pandas & NumPy – manipulação e análise de dados
-  
-  -Matplotlib & Seaborn – visualização gráfica
-  
-  -Jupyter Notebook – ambiente interativo
-  
-  -Google Colab (opcional) – execução em nuvem
-
-Etapas do Projeto
-
-Coleta de dados (via CSV ou API do YouTube)
-
-Tratamento e limpeza dos dados
-
-Análise exploratória (EDA):
-
-Gráficos de dispersão, histogramas, boxplots
-
-Análises de correlação e tendências
-
-Geração de insights acionáveis
-
-Principais Insights
+ETL: Leitura de arquivos CSV e preparação de dados com Pandas e PySpark
+EDA: Exploração de métricas como visualizações, likes e comentários para entender padrões e comportamento dos usuários
+Otimização: Técnicas de performance com uso inteligente da memória e limitação de colunas para acelerar o processamento
 
 Vídeos com mais engajamento tendem a ter títulos curtos e thumbnails atrativas
 Publicações entre determinados horários ou dias geram mais visualizações
