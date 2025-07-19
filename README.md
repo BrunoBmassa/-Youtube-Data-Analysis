@@ -1,4 +1,4 @@
-# YouTube Data Processing Pipeline (PySpark)
+# YouTube Analysis
 
 This project consists of a complete data pipeline built with **PySpark** to process, analyze, and model data related to YouTube videos and comments. It includes steps for reading, cleaning, transforming, feature engineering, and statistical analysis.
 
