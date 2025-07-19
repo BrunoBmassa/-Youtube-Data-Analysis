@@ -1,37 +1,61 @@
-Projeto de análise exploratória com base em dados de vídeos e canais do YouTube, com foco em entender padrões de visualização, engajamento e desempenho dos conteúdos.
+# YouTube Data Analysis Project
 
-Objetivo
-Explorar dados do YouTube para identificar:
+An exploratory data analysis project based on YouTube video and channel data, focused on understanding patterns in **viewership**, **engagement**, and **content performance**.
 
-Vídeos com maior e menor performance
+---
 
-Correlações entre visualizações, likes, dislikes e comentários
+## Objective
 
-Tendências por tempo de publicação ou categorias
+Explore YouTube data to identify:
 
-Estratégias de crescimento com base em dados reais
+- Videos with **highest and lowest performance**  
+- **Correlations** between views, likes, dislikes, and comments  
+- **Trends** based on publication time or video categories  
+- **Growth strategies** backed by real data insights
 
-Tecnologias utilizadas:
-PySpark • Pandas • Spark SQL • Gdown • Python
+---
 
-Principais etapas:
+## Technologies Used
 
-ETL: Leitura de arquivos CSV e preparação de dados com Pandas e PySpark
-EDA: Exploração de métricas como visualizações, likes e comentários para entender padrões e comportamento dos usuários
-Otimização: Técnicas de performance com uso inteligente da memória e limitação de colunas para acelerar o processamento
+- **PySpark**  
+- **Pandas**  
+- **Spark SQL**  
+- **Gdown**  
+- **Python**
 
-Vídeos com mais engajamento tendem a ter títulos curtos e thumbnails atrativas
-Publicações entre determinados horários ou dias geram mais visualizações
-Alta correlação entre número de comentários e likes, indicando engajamento real
+---
 
-Como Executar
+## Key Steps
 
- Clone o repositório:
+- **ETL**: Reading CSV files and preparing data using Pandas and PySpark  
+- **EDA**: Exploring metrics like views, likes, and comments to understand user behavior and performance trends  
+- **Optimization**: Improving performance through smart memory usage and column filtering to accelerate processing
+
+---
+
+## Key Insights
+
+- Highly engaging videos often have **short titles** and **eye-catching thumbnails**  
+- Publishing at specific **times or days** tends to result in more views  
+- Strong correlation between **number of comments and likes**, indicating genuine engagement
+
+---
+
+## How to Run
+
+1. **Clone the repository:**
 
 git clone https://github.com/BrunoBmassa/Analise-dados-Youtube.git
 
-Instale as dependências:
+2. **Install dependencies:**
+
 pip install pandas matplotlib seaborn plotly jupyter
 
-Execute o notebook:
+3. **Run the notebook:**
+
 jupyter notebook notebook/analise_youtube.ipynb
+
+Author
+Bruno Brehmer Massaneiro
+
+
