@@ -45,17 +45,18 @@ Explore YouTube data to identify:
 
 1. **Clone the repository:**
 
-git clone https://github.com/BrunoBmassa/Analise-dados-Youtube.git
+  git clone https://github.com/BrunoBmassa/Analise-dados-Youtube.git
 
 2. **Install dependencies:**
 
-pip install pandas matplotlib seaborn plotly jupyter
+  pip install pandas matplotlib seaborn plotly jupyter
 
 3. **Run the notebook:**
 
-jupyter notebook notebook/analise_youtube.ipynb
+  jupyter notebook notebook/analise_youtube.ipynb
 
-Author
+## Author
+
 Bruno Brehmer Massaneiro
 
 
