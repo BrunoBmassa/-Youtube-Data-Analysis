@@ -20,7 +20,7 @@ youtube-pyspark-pipeline
 ┣ data
 ┃ ┣ videos.csv
 ┃ ┗ comentarios.csv
-┣ main.py
+┣ youtube_analysis.py
 ┗ README.md
 
 
