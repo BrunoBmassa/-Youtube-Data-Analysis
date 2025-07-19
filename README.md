@@ -1,59 +1,58 @@
-# YouTube Data Analysis Project
+# YouTube Data Processing Pipeline (PySpark)
 
-An exploratory data analysis project based on YouTube video and channel data, focused on understanding patterns in **viewership**, **engagement**, and **content performance**.
-
----
-
-## Objective
-
-Explore YouTube data to identify:
-
-- Videos with **highest and lowest performance**  
-- **Correlations** between views, likes, dislikes, and comments  
-- **Trends** based on publication time or video categories  
-- **Growth strategies** backed by real data insights
+Este projeto consiste em um pipeline completo utilizando **PySpark** para processar, analisar e modelar dados relacionados a vídeos e comentários do YouTube. Inclui etapas de leitura, limpeza, transformação, engenharia de atributos e análise estatística.
 
 ---
 
-## Technologies Used
+## Tecnologias Utilizadas
 
-- **PySpark**  
-- **Pandas**  
-- **Spark SQL**  
-- **Gdown**  
-- **Python**
-
----
-
-## Key Steps
-
-- **ETL**: Reading CSV files and preparing data using Pandas and PySpark  
-- **EDA**: Exploring metrics like views, likes, and comments to understand user behavior and performance trends  
-- **Optimization**: Improving performance through smart memory usage and column filtering to accelerate processing
+- Python 3.11+
+- PySpark (Spark MLlib, DataFrame API)
+- Google Drive (`gdown` para download de arquivos)
+- Pandas (opcional, para comparação)
+- Jupyter / Google Colab (ambiente de execução)
 
 ---
 
-## Key Insights
+## Estrutura do Projeto
 
-- Highly engaging videos often have **short titles** and **eye-catching thumbnails**  
-- Publishing at specific **times or days** tends to result in more views  
-- Strong correlation between **number of comments and likes**, indicating genuine engagement
+youtube-pyspark-pipeline
+┣ data
+┃ ┗ videos.csv
+┃ ┗ comentarios.csv
+┣ main.py
+┣ README.md
+
 
 ---
 
-## How to Run
+##  Funcionalidades
 
-1. **Clone the repository:**
+-  **Download automático de dados** via `gdown`
+-  **Limpeza e tratamento** dos dados
+-  **Estatísticas agregadas** por canal, categoria e data
+-  **Engenharia de atributos** com transformações em colunas de texto e data
+-  **Modelagem com regressão linear** para prever visualizações
+-  **Redução de dimensionalidade** com PCA
+-  **Normalização de dados** com MinMaxScaler
+-  **Avaliação de variância, média, contagem e outliers**
 
-  git clone https://github.com/BrunoBmassa/Analise-dados-Youtube.git
+---
 
-2. **Install dependencies:**
+## ⚙ Como Executar
 
-  pip install pandas matplotlib seaborn plotly jupyter
+1. Clone o repositório:
 
-3. **Run the notebook:**
+git clone https://github.com/seu-usuario/youtube-pyspark-pipeline.git
+cd youtube-pyspark-pipeline
 
-  jupyter notebook notebook/analise_youtube.ipynb
+Instale os requisitos:
+
+pip install pyspark gdown
+
+Execute o pipeline:
+
+python main.py
 
 ## Author
 
