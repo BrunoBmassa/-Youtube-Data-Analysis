@@ -1,56 +1,56 @@
 # YouTube Data Processing Pipeline (PySpark)
 
-Este projeto consiste em um pipeline completo utilizando **PySpark** para processar, analisar e modelar dados relacionados a vídeos e comentários do YouTube. Inclui etapas de leitura, limpeza, transformação, engenharia de atributos e análise estatística.
+This project consists of a complete data pipeline built with **PySpark** to process, analyze, and model data related to YouTube videos and comments. It includes steps for reading, cleaning, transforming, feature engineering, and statistical analysis.
 
 ---
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 - Python 3.11+
 - PySpark (Spark MLlib, DataFrame API)
-- Google Drive (`gdown` para download de arquivos)
-- Pandas (opcional, para comparação)
-- Jupyter / Google Colab (ambiente de execução)
+- Google Drive (`gdown` for file download)
+- Pandas (optional, for comparison)
+- Jupyter / Google Colab (execution environment)
 
 ---
 
-## Estrutura do Projeto
+## Project Structure
 
 youtube-pyspark-pipeline
 ┣ data
-┃ ┗ videos.csv
+┃ ┣ videos.csv
 ┃ ┗ comentarios.csv
 ┣ main.py
-┣ README.md
+┗ README.md
 
 
----
-
-##  Funcionalidades
-
--  **Download automático de dados** via `gdown`
--  **Limpeza e tratamento** dos dados
--  **Estatísticas agregadas** por canal, categoria e data
--  **Engenharia de atributos** com transformações em colunas de texto e data
--  **Modelagem com regressão linear** para prever visualizações
--  **Redução de dimensionalidade** com PCA
--  **Normalização de dados** com MinMaxScaler
--  **Avaliação de variância, média, contagem e outliers**
 
 ---
 
-## ⚙ Como Executar
+##  Features
 
-1. Clone o repositório:
+-  Automatic file download via `gdown`
+-  Data cleaning and preprocessing
+-  Aggregated statistics by channel, category, and date
+-  Feature engineering on text and date columns
+-  Linear regression modeling to predict views
+-  Dimensionality reduction using PCA
+-  Data normalization with MinMaxScaler
+-  Analysis of variance, averages, counts, and outliers
 
-git clone https://github.com/seu-usuario/youtube-pyspark-pipeline.git
+---
+
+##  How to Run
+
+1. Clone the repository:
+
+git clone https://github.com/your-username/youtube-pyspark-pipeline.git
 cd youtube-pyspark-pipeline
-
-Instale os requisitos:
+Install the required packages:
 
 pip install pyspark gdown
 
-Execute o pipeline:
+Run the pipeline:
 
 python main.py
 
