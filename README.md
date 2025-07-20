@@ -50,9 +50,9 @@ Install the required packages:
 
 pip install pyspark gdown
 
-Run the pipeline:
+2. Or open notebook in Jupyter
 
-python main.py
+Youtube_Data_Analysis.ipynb
 
 ## Author
 
